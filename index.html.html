@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            /* height: 100vh; */
+            border: 2px solid black;
+            background:  url('https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/6d20b198-e7ab-4e9f-a1aa-666faa0298f9/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_small.jpg') no-repeat ;
+            background-size: cover;
+            /* filter: brightness(70%); */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            /* flex-direction: column; */
+
+        }
+        img{
+            margin-left: 130px;
+         }
+
+        .container {
+            width: 400px;
+            margin: auto;
+            border: 2px solid black;
+            background-color: rgba(12, 12, 12, 0.851);
+            padding: 50px;
+            border-radius: 8px;
+        }
+
+        form {
+            padding: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #e50914;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 20px;
+            background-color: rgba(12, 12, 12, 0.596);
+            border: 1px solid grey;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #a19d9d;
+        }
+
+        #p1 {
+            color: antiquewhite;
+            text-align: center;
+            margin: 10px;
+        }
+
+        p {
+            color: antiquewhite;
+        }
+        footer{
+            padding: 150px 100px;
+            text-decoration: none;
+            background-color: rgb(0, 0 , 0);
+        }
+        .footer-contact{
+            color: grey;
+            font-size: 20px;
+        }
+        .footer-links{
+            width: 100%;
+            display: flex;
+            flex-grow: 1;
+            /* justify-content: space-between; */
+            padding: 40px 0px 40px 0px;
+            flex-wrap: wrap;
+        }
+        
+        select{
+            height: 40px;
+            width: 100px;
+            padding-left: 10px;
+            border-radius: 3px;
+            color: white;
+            background-color: rgb(49, 48, 48);
+            border: none;
+        }
+        .linked{
+            color: grey;
+        }
+        .space{
+            margin: 10px 0px;
+        }
+        @media(max-width: 599px){
+            header{
+                
+                height: 70px;
+            }
+            img{
+                position : relative;
+                left : -160px;      
+                top: -25px;  
+
+            }
+            body{
+                background: black;
+            }
+            .container{
+                background: black;
+                width: 100%;
+                padding-top: 0px;
+                border-bottom: 1px solid white;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header><img
+            src="https://images.ctfassets.net/y2ske730sjqp/6bhPChRFLRxc17sR8jgKbe/6fa1c6e6f37acdc97ff635cf16ba6fb3/Logos-Readability-Netflix-logo.png"
+            alt="" style="height: 120px;width: 250px;"></header>
+
+    <div class="container">
+        <div class="login_box">
+            <h1 style="color: white; margin-bottom: 20px;">Sign In</h1>
+            <form>
+                <div class="inputs">
+                    <input type="email" id="email" placeholder="Email or phone number" required>
+
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <button style="background-color: red;"> Sign In</button>
+                <p id="p1">OR</p>
+                <button style="background-color: rgba(68, 63, 63, 0.744);"> Use a sign-in code</button>
+                <p id="p1">Forgot password?</p>
+                <div class="help-links">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" style="width: 50px;">
+                        <label for="remember" style="color: white; ">Remember me</label>
+
+                    </div>
+
+            </form>
+            
+        </div>
+        </form>
+        <div class="signup-now">
+            <p style="color: rgb(173, 179, 184);">New to Netflix? <a href="#" style="color: aliceblue; ">Sign up now</a></p>
+            <br>
+        </div>
+        <p class="captcha-notice" style="color: #868484; font-size: 14px;">
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a>.
+        </p>
+
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-contact">Questions? Call 000-800-919-1694</div>
+        <div class="footer-links">
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 250px;">FAQ</a></div>
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 250px;">Help Centre</a></div>
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 250px;">Terms of Use</a></div>
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 250px;">Privacy</a></div>
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 145px;">Cookie Preferences</a></div>
+            <div class="space"><a href="#" class="linked" style="text-decoration: underline; padding-right: 250px;">Corporate Information</a></div>
+        </div>
+        <div class="language-select">
+            <select>
+                <option>English</option>
+                <option>हिन्दी</option>
+            </select>
+        </div>
+    </footer>
+
+</body>
+
+</html>
