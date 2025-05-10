@@ -3,9 +3,6 @@
 
 This project is a simple and responsive **Netflix login page clone**, built using **HTML** and **CSS**. It visually resembles Netflix’s official login screen.
 
-## 🔗 Live Preview
-
-[Click here to view the login page](https://vallariasthana.github.io/Netflix_login/)
 
 ## 🧰 Tech Stack
 
