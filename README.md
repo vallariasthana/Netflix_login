@@ -13,4 +13,4 @@ This project is a simple and responsive **Netflix login page clone**, built usin
 - Clean and modern Netflix-style layout
 - Responsive design
 - Custom "Sign In" form
-- “Remember Me” checkbox and “Need help?” link styling
+
