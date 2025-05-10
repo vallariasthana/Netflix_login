@@ -6,7 +6,7 @@ This project is a simple and responsive **Netflix login page clone**, built usin
 ## 🧰 Tech Stack
 
 - **HTML5**
-- **CSS3**
+- **CSS**
 
 ## 💡 Features
 
